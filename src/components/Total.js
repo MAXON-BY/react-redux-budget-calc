@@ -18,7 +18,7 @@ const Total = ({total,income,expenses }) => {
                 <div className="total__main-item total__expenses">
                     <h4>Расходы</h4>
                     <p className="total__money total__money-expenses">
-                        -{expenses} Br
+                        {expenses} Br
                     </p>
                 </div>
             </div>
